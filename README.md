@@ -1,6 +1,8 @@
 
 # SW Navigation Prefetch
 
+[![Build Status](https://travis-ci.org/KurtWagner/sw-navigation-prefetch.svg?branch=master)](https://travis-ci.org/KurtWagner/sw-navigation-prefetch) [![Dependency Status](https://david-dm.org/kurtwagner/sw-navigation-prefetch.svg)](https://david-dm.org/kurtwagner/sw-navigation-prefetch) [![devDependencies Status](https://david-dm.org/kurtwagner/sw-navigation-prefetch/dev-status.svg)](https://david-dm.org/kurtwagner/sw-navigation-prefetch?type=dev)
+
 > **Important:** This is experimental. I built to learn more about service workers. There's no guarantee that it will operate as expected.
 
 A library that prefetches resources at navigation run time to overcome startup code bloat blocking required fetches.
