@@ -1,0 +1,17 @@
+{
+	"extends": "google",
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"env": {
+		"serviceworker": true,
+		"worker": true,
+		"es6": true
+	},
+	"rules": {
+		"require-jsdoc": "off",
+		"no-trailing-spaces": "off",
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
+	}
+}
